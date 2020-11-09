@@ -1,0 +1,13 @@
+path_vars:
+  ddest_photo_day: /home/pi/Desktop/sysconfig_24/day-and-night-timelapse-v2.3/timelapse/
+  ndest_photo_night: /home/pi/Desktop/sysconfig_24/day-and-night-timelapse-v2.3/timelapse/
+  dest_location: /home/pi/Desktop/sysconfig_24/day-and-night-timelapse-v2.3/timelapse/*
+  ineligible_files: ./ineligible_files/
+day_config:
+  dinterval: 5
+  dlight_low_limit: 240
+night_config:
+  ninterval: 5
+  nlight_low_limit: 650
+camera_parameters:
+  resolution: 1296, 730
